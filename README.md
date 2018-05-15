@@ -1,5 +1,5 @@
 # Spotify Recsys Challenge
-### Cara Van Uden for C0SC 69 in 18S
+### Cara Van Uden for COSC 69 in 18S
 
 Spotify is an online music streaming service with over 140 million active users and over 30 million tracks. One of its popular features is the ability to create playlists, and the service currently hosts over 2 billion playlists.
 
