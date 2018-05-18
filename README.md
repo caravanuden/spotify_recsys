@@ -1,5 +1,6 @@
 # Spotify Recsys Challenge
-### Cara Van Uden for COSC 69 in 18S
+### Cara Van Uden
+### COSC 69 in 18S
 
 Spotify is an online music streaming service with over 140 million active users and over 30 million tracks. One of its popular features is the ability to create playlists, and the service currently hosts over 2 billion playlists.
 
@@ -26,9 +27,10 @@ There are two basic methods of music recommendation- metadata information retrie
 
 Collaborative filtering is able to recommend items via the choice of other similar users. As one of the most successful approaches in recommendation systems, it assumes that if user X and Y rate n items similarly or have similar behavior, they will rate or act on other items similarly. Instead of calculating the similarity between items, a set of ‘nearest neighbor’ users for each user whose past ratings have the strongest correlation are found. Therefore, scores for the unseen items are predicted based on a combination of the scores known from the nearest neighbors.
 
-For this project, I will use a deep neural net (LSTM) to build my playlist recommendation system. I also plan to do some exploratory anaylses, such as playlist clustering and PCA, to find interesting patterns in these user-generated playlists.
+For this project, I will use neural collaborative filtering (He et al, 2017), implemented in Keras with a Tensorflow backend, to build my playlist recommendation system. I also plan to do some exploratory analyses, like looking at numbers of unique tracks, artists, albums, etc. I may also do some playlist clustering and PCA, to find interesting patterns in these user-generated playlists. 
 
 ### Citations
 
 https://recsys-challenge.spotify.com/dataset
 http://webprojects.eecs.qmul.ac.uk/marcusp/papers/SongDixonPearce-CMMR2012.pdf
+https://arxiv.org/pdf/1708.05031.pdf
