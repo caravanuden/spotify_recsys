@@ -1,5 +1,5 @@
 # Spotify Recsys Challenge
-# Note for Prof. Campbell and Rui: I would not recommend running the NCF Jupyter notebook file before the show and tell, as the NCF model took me about 3 hours to train. I don't want you to have to endure that :)
+#### Note for Prof. Campbell and Rui: I would not recommend running the Jupyter notebook files before the show and tell, as 1) the Spotify data is not included in this repo (too large) and 2) the NCF model took me about 3 hours to train. I don't want you to have to endure that :)
 
 ### Cara Van Uden
 ### COSC 69 in 18S
