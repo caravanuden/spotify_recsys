@@ -1,8 +1,7 @@
 # Spotify Recsys Challenge
-#### Note for Prof. Campbell and Rui: I would not recommend running the Jupyter notebook files before the show and tell, as 1) the Spotify data is not included in this repo (too large) and 2) the NCF model took me about 3 hours to train. I don't want you to have to endure that :)
 
 ### Cara Van Uden
-### COSC 69 in 18S
+### COSC 69, 18S
 
 Spotify is an online music streaming service with over 140 million active users and over 30 million tracks. One of its popular features is the ability to create playlists, and the service currently hosts over 2 billion playlists.
 
@@ -33,6 +32,11 @@ For this project, I will use neural collaborative filtering (He et al, 2017), im
 
 ### Citations
 
-https://recsys-challenge.spotify.com/dataset
-http://webprojects.eecs.qmul.ac.uk/marcusp/papers/SongDixonPearce-CMMR2012.pdf
-https://arxiv.org/pdf/1708.05031.pdf
++ ![Spotify MPD](https://recsys-challenge.spotify.com/dataset)
++ ![A general overview of recommendation systems](http://webprojects.eecs.qmul.ac.uk/marcusp/papers/SongDixonPearce-CMMR2012.pdf)
++ ![Neural collaborative filtering, He et al 2017](https://arxiv.org/pdf/1708.05031.pdf)
+
+### Jupyter Notebooks
++ ![Exploratory analyses](exploratory_analysis.html)
++ ![NeuMF model for Spotify MPD](neural_collaborative_filtering.html)
+
