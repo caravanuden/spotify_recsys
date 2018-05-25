@@ -32,11 +32,11 @@ For this project, I will use neural collaborative filtering (He et al, 2017), im
 
 ### Citations
 
-+ ![Spotify MPD](https://recsys-challenge.spotify.com/dataset)
-+ ![A general overview of recommendation systems](http://webprojects.eecs.qmul.ac.uk/marcusp/papers/SongDixonPearce-CMMR2012.pdf)
-+ ![Neural collaborative filtering, He et al 2017](https://arxiv.org/pdf/1708.05031.pdf)
++ [Spotify MPD](https://recsys-challenge.spotify.com/dataset)
++ [A general overview of recommendation systems](http://webprojects.eecs.qmul.ac.uk/marcusp/papers/SongDixonPearce-CMMR2012.pdf)
++ [Neural collaborative filtering, He et al 2017](https://arxiv.org/pdf/1708.05031.pdf)
 
 ### Jupyter Notebooks
-+ ![Exploratory analyses](exploratory_analysis.html)
-+ ![NeuMF model for Spotify MPD](neural_collaborative_filtering.html)
++ [Exploratory analyses](exploratory_analysis.html)
++ [NeuMF model for Spotify MPD](neural_collaborative_filtering.html)
 
