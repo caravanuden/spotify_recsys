@@ -44,7 +44,7 @@ By using kmeans to cluster playlists by genre, I found that there are not playli
 
 After removing multicollinear features, I used cross-validated logistic regression to predict whether a playlist is collaborative or not. I acheived an f-score of 0.747 and an ROC AUC of only 0.558. However, I found that that collaborative playlists have more edits and unique artists, but fewer followers, than personal playlists (significant differences between the classes using a Kruskal-Wallis ANOVA). I like that collaborative playlists have a greater diversity of artists- this means that people bring their own music knowledge to the table when collaborating to build a playlist!
 
-I built a NeuMF recommender system, but due to time and resource constraints could only train it on 1/100th of the data. My model is able to recommend songs, but they're not the most accurate (how about some Latin dance music for your rock playlist?). 
+I built a NeuMF recommender system, but due to time and resource constraints could only train it on 1/100th of the data. My model achieves an accuracy of 0.97 after 5 epochs and is able to recommend songs, but in practice they're not the most accurate (how about some Latin dance music for your rock playlist?). 
 
 ### Future work
 
