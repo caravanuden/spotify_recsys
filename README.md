@@ -1,7 +1,8 @@
 # Spotify Recsys Challenge
 
-### Cara Van Uden
-### COSC 69, 18S
+### Cara Van Uden for COSC 69, 18S
+
+![A sample playlist](img/playlist.png)
 
 Spotify is an online music streaming service with over 140 million active users and over 30 million tracks. One of its popular features is the ability to create playlists, and the service currently hosts over 2 billion playlists.
 
@@ -47,7 +48,7 @@ I built a NeuMF recommender system, but due to time and resource constraints cou
 
 ### Future work
 
-In the future, I would train my NeuMF model on the complete Spotify MPD. Also, I would attempt to extract playlist embeddings (under my model) for new playlists to implement prediction on the challenge set. I would also be interested at looking at how track-level features differ between playlist genres. This data was also anonymized, so I had **very** limited access to social information (ie, user followers, each users' profile, and other social networks). This would have been very interesting to look into and incorporate into my model (I could boost performance by seeing what music your friends like).
+In the future, I would train my NeuMF model on the complete Spotify MPD. Also, I would attempt to extract playlist embeddings (under my model) for new playlists to implement prediction on the challenge set. I would also be interested at looking at how track-level features differ between playlist genres. This data was also anonymized, so I had **very** limited access to social information (ie, user followers, each user's profile, and other social networks). This would have been very interesting to look into and incorporate into my model (I could boost performance by seeing what music your friends like).
 
 ### Citations
 
