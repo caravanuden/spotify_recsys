@@ -38,7 +38,7 @@ For this project, I will use neural collaborative filtering (He et al, 2017), im
 
 ### Major findings
 
-I found the top artists, tracks, and most-followed playlists for the data (from the period Jan 2010- Oct 2017). See my exploratory anaylses for the complete top-20 lists.
+I found the top artists, tracks, and most-followed playlists for the data (from the period Jan 2010- Oct 2017). See my exploratory analyses for the complete top-20 lists.
 
 By using kmeans to cluster playlists by genre, I found that there are not playlist-level features (besides name, of course) that differentiate playlists from different genres. Interestingly, the rock, country, and party genres had the highest f-scores (of 0.13, 0.12, and 0.11, respectively) under my model out of all of the genres. 
 
@@ -59,4 +59,6 @@ In the future, I would train my NeuMF model on the complete Spotify MPD. Also, I
 ### Jupyter Notebooks
 + [Exploratory analyses](exploratory_analysis.html)
 + [NeuMF model for Spotify MPD](neural_collaborative_filtering.html)
+
+### [Slides](https://docs.google.com/presentation/d/19I1OQasg5ndNfR9kdkNhgos3PnDtIkA22yNkqWgO0w4/edit#slide=id.p)
 
