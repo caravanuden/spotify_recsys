@@ -1,6 +1,4 @@
-# Spotify Recsys Challenge
-
-### Cara Van Uden for COSC 69, 18S
+## Spotify Recsys Challenge
 
 ![A sample playlist](img/playlist.png)
 
@@ -40,11 +38,11 @@ For this project, I will use neural collaborative filtering (He et al, 2017), im
 
 I found the top artists, tracks, and most-followed playlists for the data (from the period Jan 2010- Oct 2017). See my exploratory analyses for the complete top-20 lists.
 
-By using kmeans to cluster playlists by genre, I found that there are not playlist-level features (besides name, of course) that differentiate playlists from different genres. Interestingly, the rock, country, and party genres had the highest f-scores (of 0.13, 0.12, and 0.11, respectively) under my model out of all of the genres. 
+By using kmeans to cluster playlists by genre, I found that there are not playlist-level features (besides name, of course) that differentiate playlists from different genres. Interestingly, the rock, country, and party genres had the highest f-scores (of 0.13, 0.12, and 0.11, respectively) under my model out of all of the genres.
 
 After removing multicollinear features, I used cross-validated logistic regression to predict whether a playlist is collaborative or not. I acheived an f-score of 0.747 and an ROC AUC of only 0.558. However, I found that that collaborative playlists have more edits and unique artists, but fewer followers, than personal playlists (significant differences between the classes using a Kruskal-Wallis ANOVA). I like that collaborative playlists have a greater diversity of artists- this means that people bring their own music knowledge to the table when collaborating to build a playlist!
 
-I built a NeuMF recommender system, but due to time and resource constraints could only train it on 1/100th of the data. My model achieves an accuracy of 0.97 after 5 epochs and is able to recommend songs, but in practice they're not the most accurate (how about some Latin dance music for your rock playlist?). 
+I built a NeuMF recommender system, but due to time and resource constraints could only train it on 1/100th of the data. My model achieves an accuracy of 0.97 after 5 epochs and is able to recommend songs, but in practice they're not the most accurate (how about some Latin dance music for your rock playlist?).
 
 ### Future work
 
@@ -61,4 +59,3 @@ In the future, I would train my NeuMF model on the complete Spotify MPD. Also, I
 + [NeuMF model for Spotify MPD](neural_collaborative_filtering.html)
 
 ### [Slides](https://docs.google.com/presentation/d/19I1OQasg5ndNfR9kdkNhgos3PnDtIkA22yNkqWgO0w4/edit#slide=id.p)
-
